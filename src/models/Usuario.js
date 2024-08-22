@@ -5,12 +5,26 @@ const UsuarioSchema = new Schema({
         type: String, 
         required: true,
     },
-    password: {
+    nome: {
         type: String, 
         required: true,
     },
-    tipo: {
+    documento: {
         type: String, 
+        required: true,
+    },
+    nickname: {
+        type: String, 
+    },
+    senha: {
+        type: String, 
+        required: true,
+    },
+    nivel_de_acesso: {
+        type: String, 
+        required: true,
+        enum: ['funcionario', 'admin'],
+        default: 'funcionario'
     },
 }, { timestamps: true });
 

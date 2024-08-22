@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
 
-let server = "mongodb+srv://bario:golangrules@cluster0.e3q8cug.mongodb.net"
+let server = process.env.MONGO_URI
 
 let database = "initial"
 
