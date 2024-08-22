@@ -1,0 +1,30 @@
+{
+  "name": "Viggo-Caixa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "api": "^6.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dayjs": "^1.11.9",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.15.4",
+    "firebase": "^10.1.0",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1",
+    "pagarme": "^4.34.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
